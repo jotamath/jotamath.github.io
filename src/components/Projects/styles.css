@@ -1,0 +1,15 @@
+.projects {
+  padding: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project-card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: var(--token-21548018-2c6a-4f12-8179-3f9ac05924f0);
+} 

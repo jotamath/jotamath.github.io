@@ -1,0 +1,27 @@
+.about {
+  padding: 4rem 2rem;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.emoji {
+  font-size: 124px;
+  margin-bottom: 2rem;
+}
+
+.about-text {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 2rem 0;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--color-success);
+  border-radius: 50px;
+} 

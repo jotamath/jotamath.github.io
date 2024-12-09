@@ -1,0 +1,17 @@
+.footer {
+  padding: 2rem;
+  background-color: var(--color-background);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;
+} 

@@ -1,0 +1,49 @@
+:root {
+  /* Cores do sistema */
+  --color-primary: rgb(45, 130, 183);
+  --color-secondary: rgb(243, 223, 191);
+  --color-accent: rgb(54, 110, 230);
+  --color-background: rgb(32, 22, 43);
+  --color-success: rgb(22, 152, 115);
+  --color-highlight: rgb(244, 159, 188);
+
+  /* Fontes */
+  --font-family: "Inter", "Inter Placeholder", sans-serif;
+  --font-size-base: 14px;
+  --letter-spacing-base: -0.2px;
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  background-color: var(--color-background);
+  color: var(--color-secondary);
+}
+
+/* Media Queries do Framer */
+@media(min-width: 1200px) {
+  .hidden-desktop {
+    display: none !important;
+  }
+}
+
+@media(min-width: 810px) and (max-width: 1199px) {
+  .hidden-tablet {
+    display: none !important;
+  }
+}
+
+@media(max-width: 809px) {
+  .hidden-mobile {
+    display: none !important;
+  }
+} 
